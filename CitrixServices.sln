@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitrixServices.Plugin", "CitrixServices.Plugin\CitrixServices.Plugin.csproj", "{FFF911A9-4818-415B-A610-D6DF8DBC45B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitrixServices.Site", "CitrixServices.Site\CitrixServices.Site.csproj", "{BA9A69FF-C661-4D50-9EDB-0A3ADFAD23D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitrixServices.XenServer", "CitrixServices.XenServer\CitrixServices.XenServer.csproj", "{5B1BF250-C4EB-43C6-97D3-7183FF8363D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A24054C-2811-491A-A5A4-0BBBB48D2FA4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF911A9-4818-415B-A610-D6DF8DBC45B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF911A9-4818-415B-A610-D6DF8DBC45B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF911A9-4818-415B-A610-D6DF8DBC45B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF911A9-4818-415B-A610-D6DF8DBC45B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9A69FF-C661-4D50-9EDB-0A3ADFAD23D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9A69FF-C661-4D50-9EDB-0A3ADFAD23D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9A69FF-C661-4D50-9EDB-0A3ADFAD23D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9A69FF-C661-4D50-9EDB-0A3ADFAD23D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1BF250-C4EB-43C6-97D3-7183FF8363D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1BF250-C4EB-43C6-97D3-7183FF8363D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1BF250-C4EB-43C6-97D3-7183FF8363D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1BF250-C4EB-43C6-97D3-7183FF8363D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
