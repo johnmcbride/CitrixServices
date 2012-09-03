@@ -20,7 +20,7 @@ development, its changing as we iteriate through the dev process, and will chang
 Roughly the first target will be the Citrix XenServer abstraction, with the XenApp powershell and NetScaler abstrations next. Thats the initial plan, but as with everything open source, feel free to fork it and work on the abstraction that interests you!
 
 ## Contribute
-We are activly looing for anybody to contribute. Everybody is welcome but our only requirement is that you **be nice and helpful**. 
+We are activly looking for anybody to contribute. Everybody is welcome but our only requirement is that you **be nice and helpful**. 
 
 Use this forum both as a learning and teaching platform! :)
 Whether you know how to code or not, come join and help build the project.
