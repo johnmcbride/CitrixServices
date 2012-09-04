@@ -13,7 +13,7 @@ Given the pluggablity nature of this project the developer should be able to imp
 ## Current Status
 
 Currently this project is under
-development, its changing as we iteriate through the dev process, and will change as we go. Jump on in an help!
+development, its changing as we iteriate through the dev process, and will change as we go. Jump on in and help!
 
 ## What products will be added the library?
 
