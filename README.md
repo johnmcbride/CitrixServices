@@ -29,7 +29,7 @@ We can use anybody, there needs to be documentation, code, examples, tutorials, 
 
 ##Examples
 Check out the CitrixServices.XenServer project in the repo for a quick prototype example (this will be updated as the project goes along)
-***
+
 ##Quick Tutorial
 1. Create a new Class library project in Visual Studio 
 2. Since this project uses the MEF framework you will need to add a reference in your plugin to the System.ComponentModule.Composition
@@ -44,8 +44,9 @@ Check out the CitrixServices.XenServer project in the repo for a quick prototype
 	3. override the string property Route
 6. Add a new class to your project called ServersController and implment the ApiController interface.
 7. Compile and copy your new dll to the bins/plugins directory of the API site. 
+
 ##### API Module Example Implementation
-````c#
+````csharp
  [Export(typeof(ICitrixAPIModule))]
     public class XenServerAPIModule : ICitrixAPIModule
     {
@@ -73,7 +74,7 @@ Check out the CitrixServices.XenServer project in the repo for a quick prototype
     }
 ````
 ##### API Route Example Implementation
-````c#
+````csharp
 public class XenServerAPIRoute : ICitrixAPIRoute
     {
         public string Controller { get; set; }
@@ -81,8 +82,9 @@ public class XenServerAPIRoute : ICitrixAPIRoute
         public string Route { get; set; }
     } 
 ````
+
 ##### API Controller Example Implementation
-````c#
+````csharp
  public class ServersController : ApiController
     {
         public string Get()
