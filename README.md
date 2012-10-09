@@ -1,13 +1,11 @@
-CitrixServices - The Developer API for Citrix
+CitrixServices - A Developer API for Citrix
 ==============
 
-A pluggable .NET based services layer for the different Citrix technology SDK.  This is intended to be a service layer that will abstract the different SDK's and make it easy to interact with the Citrix infrastructure.
-
-A .NET based service layer for the different Citrix technologies.
+A pluggable .NET based services layer for the different Citrix technology SDK.  This is intended to be a service layer that abstracts the different SDKs and make it easy to interact with the Citrix infrastructure.
 
 ## What's it about?
 
-The CitrixServices project is aimed at being the .NET based, pluggable, RESTful service layer that abstracts the different Citrix product SDK giving a developer a consitent, easy way to build applications to interact with the Citrix infrastructure.
+The CitrixServices project is aimed at being the .NET based, pluggable, RESTful service layer that abstracts the different Citrix product SDKs giving a developer a consistent, easy way to build applications to interact with the Citrix infrastructure.
 Given the pluggablity nature of this project the developer should be able to implement the ICitrixAPI Mobile and ICitrixAPIRoute interfaces, drop the compiled DLL into the plugins directory and implement any SDK to their choosing.
 
 ## Current Status
@@ -17,10 +15,10 @@ development, its changing as we iteriate through the dev process, and will chang
 
 ## What products will be added the library?
 
-Roughly the first target will be the Citrix XenServer abstraction, with the XenApp powershell and NetScaler abstrations next. Thats the initial plan, but as with everything open source, feel free to fork it and work on the abstraction that interests you!
+Roughly the first target will be the Citrix XenServer abstraction, with the XenApp powershell and NetScaler abstractions next. That's the initial plan, but as with everything open source, feel free to fork it/branch it and work on the abstraction that interests you!
 
 ## Contribute
-We are activly looking for anybody to contribute. Everybody is welcome but our only requirement is that you **be nice and helpful**. 
+We are actively looking for anybody to contribute. Everybody is welcome but our only requirement is that you **be nice and helpful**. 
 
 Use this forum both as a learning and teaching platform! :)
 Whether you know how to code or not, come join and help build the project.
