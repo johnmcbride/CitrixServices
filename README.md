@@ -1,7 +1,7 @@
 CitrixServices - A Developer API for Citrix
 ==============
 
-A pluggable .NET based services layer for the different Citrix technology SDK.  This is intended to be a service layer that abstracts the different SDKs and make it easy to interact with the Citrix infrastructure.
+A pluggable .NET based services layer for the different Citrix technology SDKs.  This is intended to be a service layer that abstracts the different SDKs and make it easy to interact with the Citrix infrastructure.
 
 ## What's it about?
 
